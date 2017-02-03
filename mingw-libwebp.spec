@@ -2,7 +2,7 @@
 
 Name:           mingw-libwebp
 Version:        0.5.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW compilation of Library and tools for the WebP format
 
 License:        BSD
@@ -126,6 +126,9 @@ rm -fr %{buildroot}%{mingw64_mandir}
 %{mingw64_libdir}/libwebpmux.dll.a
 
 %changelog
+* Fri Feb 03 2017 Jajauma's Packages <jajauma@yandex.ru> - 0.5.2-2
+- Rebuild with GCC 5.4.0
+
 * Thu Dec 22 2016 Sandro Mani <manisandro@gmail.com> - 0.5.2-1
 - Update to 0.5.2
 
